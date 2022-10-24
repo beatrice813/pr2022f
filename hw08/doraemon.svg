@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  height="512" width="512" viewBox="0 0 512 512">
+
+
+
+
+<眼睛>
+ <ellipse fill="#00f1" stroke="#000" stroke-width="5" cx="229" cy="62" rx="35" ry="42"/>
+  <ellipse fill="#00f1" stroke="#000" stroke-width="5" cx="302" cy="62" rx="35" ry="42"/>
+
+
+<眼球>
+ <ellipse fill="#00f1" stroke="#000" stroke-width="10" cx="246" cy="62" rx="10" ry="14"/>
+  <ellipse fill="#00f1" stroke="#000" stroke-width="10" cx="286" cy="62" rx="10" ry="14"/>
+
+
+<鼻樑>
+ <path d="M266 120 L266 195" stroke="black" stroke-width="5"/>
+
+
+<嘴巴>
+ <path d="M128 208 C206 215,226 195,266 195" stroke="red" stroke-width="5" fill="red"/>
+  <path d="M266 194 C344 215,364 195,399 215" stroke="red" stroke-width="5" fill="red"/>
+  <path d="M128 208 C206 305,296 415,396 215" stroke="red" stroke-width="5" fill="red"/>
+
+ <path d="M192 208 C150 300,360 195,266 195" stroke="red" stroke-width="5" fill="red"/>
+ <path d="M266 194 C300 350,360 195,399 215" stroke="red" stroke-width="5" fill="red"/>
+
+<上臉頰>
+
+<path d="M120 135 Q130 90, 195 75" " stroke-width="5" stroke="black" fill="#ffffff"/>
+<path d="M410 140 Q400 90, 335 75" " stroke-width="5" stroke="black" fill="#ffffff"/>
+
+<蘋果肌>
+ <path d="M135 128 A105 50,0 0 0 128 208" stroke-width="5" stroke="#000" fill="#ffffff"/>
+  <path d="M400 138 A115 45,0 0 1 405 208" stroke-width="5" stroke="#000" fill="#ffffff"/>
+
+
+<下巴>
+<path d="M110 198 A110 270 ,0 0 0 160 325" stroke-width="5" stroke="#000" fill="#ffffff"/>
+  <path d="M427 200 A375 256,0 0 1 390 312" stroke-width="5" stroke="#000" fill="#ffffff"/>
+
+
+
+<鬍鬚>
+ <path d="M220 135 L132 114"  stroke-width="5" stroke="black"/>
+  <path d="M220 155 L125 154"  stroke-width="5" stroke="black"/>
+  <path d="M220 175 L132 194"  stroke-width="5" stroke="black"/>
+
+
+ <path d="M397 112 L300 134"  stroke-width="5" stroke="black"/>
+  <path d="M397 152 L300 154"  stroke-width="5" stroke="black"/>
+  <path d="M397 192 L300 174"  stroke-width="5" stroke="black"/>
+
+
+<鼻子>
+ <circle fill="#FF4343" stroke="#890000" stroke-width="1" cx="263" cy="112" r="25"/></circle>
+
+
+
+ <!-- 橢圓 -->
+  <ellipse fill="#00f1" stroke="#00f9" stroke-width="5" cx="266" cy="182" rx="180" ry="180"/>
+  
+</svg>
+
