@@ -1,69 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-
-
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
   height="512" width="512" viewBox="0 0 512 512">
 
+  <!-- 背景 -->
+  <image href="./character_1.png" height="512" width="512" />
+  <rect width="512" height="512" stroke="red" fill="rgba(255,255,255,0.95)" opacity="0.95" ></rect>
+
+<!-- 作畫區 -->
+
+<!-- 藍色的臉 -->
+<path id="head" d="M 150 326 A 188 180 0 1 1 385 320" stroke-width="1" stroke="#000000" fill="#00a0e9" opacity="1"/>stroke="#000000" fill="#d0112b" opacity="1"/>
+
+<!-- 白色的臉 -->
+<path id="face" d="M 155 320 C 56 190 90 64 260 70 Q 514 65 384 320 Q 271 360 155 320" stroke-width="3" stroke="#000000" fill="#FFFFFF" opacity="1"/>
+
+<!-- 大口 -->
+<path id="mouth" d="M 120 195 Q 270 453 405 195" stroke-width="2" stroke="#000000" fill="#d0112b" opacity="1"/>
+
+<!-- 蘋果肌 -->
+<path id="chink" d="M135 138 C89 115 64 195 128 210                       Q169 213 204 203 Q265 188 318 200 Q360 209 415 208 C457 182 443 121 393 138" stroke-width="2.5" stroke="#000000" fill="#FFFFFF" opacity="1"/>
+
+<!-- 眼框 -->
+<ellipse id="lefteye1" stroke="#000000" stroke-width="3" fill="#FFFFFF" cx="226" cy="59" rx="38" ry="43" opacity="1"/>
+
+<ellipse id="righteye1" stroke="#000000" stroke-width="3" fill="#FFFFFF" cx="305" cy="59" rx="38" ry="43" opacity="1"/>
 
 
+<!-- 眼黑 -->
+<ellipse id="lefteye2" fill="#000000" cx="246" cy="63" rx="12" ry="17" opacity="1"/>
+<ellipse id="righteye2" fill="#000000" cx="284" cy="63" rx="12" ry="17" opacity="1"/>
 
-<眼睛>
- <ellipse fill="#00f1" stroke="#000" stroke-width="5" cx="229" cy="62" rx="35" ry="42"/>
-  <ellipse fill="#00f1" stroke="#000" stroke-width="5" cx="302" cy="62" rx="35" ry="42"/>
+<!-- 瞳孔 -->
+<ellipse id="lefteye3" fill="#FFFFFF" cx="248" cy="63" rx="6" ry="8" opacity="1"/>
+<ellipse id="righteye3" fill="#FFFFFF" cx="283" cy="63" rx="6" ry="8" opacity="1"/>
 
+<!-- 紅鼻子 -->
+<ellipse id="nose" stroke="#b22222" stroke-width="3" fill="#d0112b" cx="265" cy="113" rx="24" ry="24" opacity="1"/>
 
-<眼球>
- <ellipse fill="#00f1" stroke="#000" stroke-width="10" cx="246" cy="62" rx="10" ry="14"/>
-  <ellipse fill="#00f1" stroke="#000" stroke-width="10" cx="286" cy="62" rx="10" ry="14"/>
+<!-- 鼻頭 -->
+<ellipse id="nose2" fill="#FFFFFF" cx="261" cy="105" rx="9" ry="9" opacity="1"/>
 
+<!-- 鼻鬚 -->
+<path id="lipline" d="M 265 138 V197 " stroke-width="3" stroke="#000000" opacity="1"/>
 
-<鼻樑>
- <path d="M266 120 L266 195" stroke="black" stroke-width="5"/>
+<!-- 鼻鬚左 -->
 
+<path id="mustacheL1" d="M132 113 Q177 122 219 134" stroke="#000000" stroke-width="3"/>
+<path id="mustacheL2" d="M 125 155 Q 172 152 219 156" stroke="#000000" stroke-width="3"/>
+<path id="mustacheL3" d="M 127 192 Q 178 180 220 179" stroke="#000000" stroke-width="3"/>
 
-<嘴巴>
- <path d="M128 208 C206 215,226 195,266 195" stroke="red" stroke-width="5" fill="red"/>
-  <path d="M266 194 C344 215,364 195,399 215" stroke="red" stroke-width="5" fill="red"/>
-  <path d="M128 208 C206 305,296 415,396 215" stroke="red" stroke-width="5" fill="red"/>
+<!-- 鼻鬚右 -->
+<path id="mustacheR1" d="M 305 136 Q 352 121 398 111" stroke="#000000" stroke-width="3"/>
+<path id="mustacheR2" d="M 307 155 Q 355 151 407 152" stroke="#000000" stroke-width="3"/>
+<path id="mustacheR3" d="M 308 177 Q 360 180 411 191" stroke="#000000" stroke-width="3"/>
 
- <path d="M192 208 C150 300,360 195,266 195" stroke="red" stroke-width="5" fill="red"/>
- <path d="M266 194 C300 350,360 195,399 215" stroke="red" stroke-width="5" fill="red"/>
-
-<上臉頰>
-
-<path d="M120 135 Q130 90, 195 75" " stroke-width="5" stroke="black" fill="#ffffff"/>
-<path d="M410 140 Q400 90, 335 75" " stroke-width="5" stroke="black" fill="#ffffff"/>
-
-<蘋果肌>
- <path d="M135 128 A105 50,0 0 0 128 208" stroke-width="5" stroke="#000" fill="#ffffff"/>
-  <path d="M400 138 A115 45,0 0 1 405 208" stroke-width="5" stroke="#000" fill="#ffffff"/>
-
-
-<下巴>
-<path d="M110 198 A110 270 ,0 0 0 160 325" stroke-width="5" stroke="#000" fill="#ffffff"/>
-  <path d="M427 200 A375 256,0 0 1 390 312" stroke-width="5" stroke="#000" fill="#ffffff"/>
+<!-- 舌頭 -->
+<path id="tongue" d="M 200 294 C 195 286 197 280 202 273 C 207 266 252 262 265 280 C 276 261 319 267 326 273 C 333 279 336 287 330 295 Q 265 351 200 294" stroke-width="1" stroke="#800000" fill="#fa4c06" opacity="1"/>
 
 
-
-<鬍鬚>
- <path d="M220 135 L132 114"  stroke-width="5" stroke="black"/>
-  <path d="M220 155 L125 154"  stroke-width="5" stroke="black"/>
-  <path d="M220 175 L132 194"  stroke-width="5" stroke="black"/>
-
-
- <path d="M397 112 L300 134"  stroke-width="5" stroke="black"/>
-  <path d="M397 152 L300 154"  stroke-width="5" stroke="black"/>
-  <path d="M397 192 L300 174"  stroke-width="5" stroke="black"/>
-
-
-<鼻子>
- <circle fill="#FF4343" stroke="#890000" stroke-width="1" cx="263" cy="112" r="25"/></circle>
-
-
-
- <!-- 橢圓 -->
-  <ellipse fill="#00f1" stroke="#00f9" stroke-width="5" cx="266" cy="182" rx="180" ry="180"/>
-  
 </svg>
 
+
+    
