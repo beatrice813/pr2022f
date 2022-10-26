@@ -5,8 +5,8 @@
 
 
 
-<喵喵框>
-<path xmlns="http://www.w3.org/2000/svg" d="M440 230 A200 155, 1, 1, 1, 85 190 A195 100, 10, 0, 1, 97 103 A125 100, 0, 0, 1, 178 128 A85 30, 0, 0, 1, 270 121 A145 100, 0, 0, 1, 310 85 A165 90, 0, 0, 1, 348 116 A105 100, 0, 0, 1, 417 94 A125 100, 0, 0, 1, 435 150 A5 10, 0, 1, 1, 440 230z" stroke-width="10" stroke="#ff0000" fill="none" opacity="1"/>
+<!-- 喵喵框 -->
+<path d="M440 230 A200 155, 1, 1, 1, 85 190 A195 100, 10, 0, 1, 97 103 A125 100, 0, 0, 1, 178 128 A85 30, 0, 0, 1, 270 121 A145 100, 0, 0, 1, 310 85 A165 90, 0, 0, 1, 348 116 A105 100, 0, 0, 1, 417 94 A125 100, 0, 0, 1, 435 150 A5 10, 0, 1, 1, 440 230z" stroke-width="10" stroke="#ff0000" fill="none" opacity="1"/>
 
 <!-- 鼻子 -->
 <ellipse fill="#ffff00" stroke="#ffd700" stroke-width="6" cx="256" cy="340" rx="25" ry="13"/>
@@ -31,7 +31,6 @@
   <path d="M15 290 L100 290"  stroke-width="10" stroke="black"/>
   <path d="M25 340 L95 325"  stroke-width="10" stroke="black"/>
   <path d="M52 393 L118 355"  stroke-width="10" stroke="black"/>
-
 
  <path d="M500 280 L415 283"  stroke-width="10" stroke="black"/>
   <path d="M488 325 L420 320"  stroke-width="10" stroke="black"/>
