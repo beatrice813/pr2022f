@@ -17,8 +17,8 @@
 
 <!-- 蝴蝶結 -->
 <circle fill="#FF1493" stroke="#ff0000" stroke-width="8" cx="358" cy="179" r="35"/>
-<path d="M346 145 Q280 140, 323 183" stroke-width="8" stroke="#ff0000"" fill="none"/>
-<path d="M393 173 Q443 210, 382 206" stroke-width="8" stroke="#ff0000"" fill="none"/>
+<path d="M346 145 Q280 140, 323 183" stroke-width="8" stroke="#ff0000" fill="none"/>
+<path d="M393 173 Q443 210, 382 206" stroke-width="8" stroke="#ff0000" fill="none"/>
 
 <path d="M365 213 L395 245 A50 30,0 0 0 438 230" stroke-width="10" stroke="#ff0000" fill="none"/>
 <path d="M268 122 L258 180 A50 50,0 0 0 325 195" stroke-width="8" stroke="#ff0000" fill="none"/>
@@ -27,7 +27,7 @@
 <path d="M436 151 A50 100,80 0 0 391 160" stroke-width="8" stroke="#ff0000" fill="none"/>
 
 
-<鬍鬚>
+<!--鬍鬚--> 
   <path d="M15 290 L100 290"  stroke-width="10" stroke="black"/>
   <path d="M25 340 L95 325"  stroke-width="10" stroke="black"/>
   <path d="M52 393 L118 355"  stroke-width="10" stroke="black"/>
@@ -37,8 +37,5 @@
   <path d="M488 325 L420 320"  stroke-width="10" stroke="black"/>
   <path d="M473 380 L405 356"  stroke-width="10" stroke="black"/>
 
-
-
-  </circle>
 </svg>
     
