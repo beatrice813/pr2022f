@@ -8,6 +8,20 @@
 <!-- 喵喵框 -->
 <path d="M440 230 A200 155, 1, 1, 1, 85 190 A195 100, 10, 0, 1, 97 103 A125 100, 0, 0, 1, 178 128 A85 30, 0, 0, 1, 270 121 A145 100, 0, 0, 1, 310 85 A165 90, 0, 0, 1, 348 116 A105 100, 0, 0, 1, 417 94 A125 100, 0, 0, 1, 435 150 A5 10, 0, 1, 1, 440 230z" stroke-width="10" stroke="#ff0000" fill="none" opacity="1"/>
 
+<circle id="c1" cx="440" cy="230" r="0.5" stroke="#00fa9a" fill="none">
+    <animate attributeName="r" to="10" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+<circle id="c2" cx="84" cy="192" r="0.5" stroke="#00fa9a" fill="none">
+    <animate attributeName="r" to="10" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+<circle cx="0" cy="0" r="1" stroke="blue" fill="none">
+    <animateMotion dur="5s" path="M440 227  A40 78, 40, 0, 0, 430 152     A100 470, 30, 0, 0, 346 120      A100 390, 0, 0, 0, 270 120     A190 100, 0, 0, 0, 176 128     A100 350, 150, 0, 0, 82 197     A200 150, 3, 1, 0, 440 227" repeatCount="indefinite" rotate="auto"/>
+    <animate attributeName="r" to="15" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+
 <!-- 鼻子 -->
 <ellipse fill="#ffff00" stroke="#ffd700" stroke-width="6" cx="256" cy="340" rx="25" ry="13"/>
 
